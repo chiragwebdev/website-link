@@ -10,4 +10,4 @@ https://dropfile.netlify.app/
 
 https://appinvestment.netlify.app
 
-https://bgremove-tools.netlify.app/
+https://bg-removeapp.netlify.app/
