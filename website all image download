@@ -1,0 +1,14 @@
+step 1: open inspect 
+2: network / img select menu and reload website
+3: result to any one image right click to copy/ copy all as HAR
+4: var har = paste code( copy all as HAR)
+5: paste thsi code 
+    var imageUrls = [];
+har.log.entries.forEach(function (entry) {
+  if (entry.response.content.mimeType.indexOf("image/") !== 0) return;
+  imageUrls.push(entry.request.url);
+});
+console.log(imageUrls.join('\n'));
+
+result all image link
+
